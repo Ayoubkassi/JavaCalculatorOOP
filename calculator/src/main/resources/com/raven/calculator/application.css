@@ -1,0 +1,124 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 27, 2022, 3:54:36 PM
+    Author     : ryota
+*/
+
+
+#bt1{
+    -fx-background-radius: 50%;
+    -fx-background-color: #3E3E3E;
+    -fx-text-fill : white;
+}
+
+#bt2{
+    -fx-background-radius: 50%;
+    -fx-background-color: #3E3E3E;
+    -fx-text-fill : white;
+}
+
+#bt3{
+    -fx-background-radius: 50%;
+    -fx-background-color: #3E3E3E;
+    -fx-text-fill : white;
+}
+
+#bt4{
+    -fx-background-radius: 50%;
+    -fx-background-color: #3E3E3E;
+    -fx-text-fill : white;
+}
+
+#bt5{
+    -fx-background-radius: 50%;
+    -fx-background-color: #3E3E3E;
+    -fx-text-fill : white;
+}
+
+#bt6{
+    -fx-background-radius: 50%;
+    -fx-background-color: #3E3E3E;
+    -fx-text-fill : white;
+}
+
+#bt7{
+    -fx-background-radius: 50%;
+    -fx-background-color: #3E3E3E;
+    -fx-text-fill : white;
+}
+
+#bt8{
+    -fx-background-radius: 50%;
+    -fx-background-color: #3E3E3E;
+    -fx-text-fill : white;
+}
+
+#bt9{
+    -fx-background-radius: 50%;
+    -fx-background-color: #3E3E3E;
+    -fx-text-fill : white;
+}
+
+#btcamma{
+    -fx-background-radius: 50%;
+    -fx-background-color: #3E3E3E;
+    -fx-text-fill : white;
+}
+
+
+#bt0{
+    -fx-background-radius: 50;
+    -fx-background-color: #3E3E3E;
+    -fx-text-fill : white;
+    -fx-alignment: LEFT;
+    -fx-padding: 0 30px;
+    
+}
+
+#btadd{
+    -fx-background-color: #f29611;
+    -fx-text-fill : white;
+    -fx-background-radius: 50;
+}
+
+#btsub{
+    -fx-background-color: #f29611;
+    -fx-text-fill : white;
+    -fx-background-radius: 50;
+}
+
+#btmul{
+    -fx-background-color: #f29611;
+    -fx-text-fill : white;
+    -fx-background-radius: 50;
+}
+
+#btdiv{
+    -fx-background-color: #f29611;
+    -fx-text-fill : white;
+    -fx-background-radius: 50;
+}
+
+#btequal{
+    -fx-background-color: #f29611;
+    -fx-text-fill : white;
+    -fx-background-radius: 50;
+}
+
+#btac {
+    -fx-background-color: #acacac;
+    -fx-background-radius: 50;
+}
+
+#btaddsub{
+    -fx-background-color: #acacac;
+    -fx-background-radius: 50;
+}
+
+#btpercent{
+    -fx-background-color: #acacac;
+    -fx-background-radius: 50;
+}
