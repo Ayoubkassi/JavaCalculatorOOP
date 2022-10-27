@@ -9,7 +9,8 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx/8.0.171" 
             xmlns:fx="http://javafx.com/fxml/1" 
-            fx:controller="com.raven.calculator.CalcController">
+            fx:controller="com.raven.calculator.CalcController"
+            fx:id="main" >
     <VBox AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="10" 
           AnchorPane.rightAnchor="10"  >
         <GridPane hgap="10" vgap="10" alignment="CENTER" 
@@ -20,13 +21,13 @@
             <children>
             <Button fx:id="btac" maxHeight="Infinity" maxWidth="Infinity" text="AC" GridPane.columnIndex="0" GridPane.rowIndex="0"  />
             <Button fx:id="btaddsub" maxHeight="Infinity" maxWidth="Infinity" text="+/-" GridPane.columnIndex="1" GridPane.rowIndex="0"  />
-            <Button fx:id="btpercent" maxHeight="Infinity" maxWidth="Infinity" text="°/°" GridPane.columnIndex="2" GridPane.rowIndex="0"  />
+            <Button fx:id="btpercent" maxHeight="Infinity" maxWidth="Infinity" text="\%" GridPane.columnIndex="2" GridPane.rowIndex="0"  />
             <Button fx:id="btdiv" maxHeight="Infinity" maxWidth="Infinity" text="/" GridPane.columnIndex="3" GridPane.rowIndex="0"  />
             
             <Button fx:id="bt7" maxHeight="Infinity" maxWidth="Infinity" text="7" GridPane.columnIndex="0" GridPane.rowIndex="1"  /> 
             <Button fx:id="bt8" maxHeight="Infinity" maxWidth="Infinity" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1"  /> 
             <Button fx:id="bt9" maxHeight="Infinity" maxWidth="Infinity" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1"  /> 
-            <Button fx:id="btmul" maxHeight="Infinity" maxWidth="Infinity" text="X" GridPane.columnIndex="3" GridPane.rowIndex="1"  /> 
+            <Button fx:id="btmul" maxHeight="Infinity" maxWidth="Infinity" text="x" GridPane.columnIndex="3" GridPane.rowIndex="1"  /> 
             
             <Button fx:id="bt4" maxHeight="Infinity" maxWidth="Infinity" text="4" GridPane.columnIndex="0" GridPane.rowIndex="2"  /> 
             <Button fx:id="bt5" maxHeight="Infinity" maxWidth="Infinity" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2"  /> 

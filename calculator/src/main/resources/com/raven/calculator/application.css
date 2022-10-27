@@ -12,60 +12,80 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-background-radius: 50%;
     -fx-background-color: #3E3E3E;
     -fx-text-fill : white;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #bt2{
     -fx-background-radius: 50%;
     -fx-background-color: #3E3E3E;
     -fx-text-fill : white;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #bt3{
     -fx-background-radius: 50%;
     -fx-background-color: #3E3E3E;
     -fx-text-fill : white;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #bt4{
     -fx-background-radius: 50%;
     -fx-background-color: #3E3E3E;
     -fx-text-fill : white;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #bt5{
     -fx-background-radius: 50%;
     -fx-background-color: #3E3E3E;
     -fx-text-fill : white;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #bt6{
     -fx-background-radius: 50%;
     -fx-background-color: #3E3E3E;
     -fx-text-fill : white;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #bt7{
     -fx-background-radius: 50%;
     -fx-background-color: #3E3E3E;
     -fx-text-fill : white;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #bt8{
     -fx-background-radius: 50%;
     -fx-background-color: #3E3E3E;
     -fx-text-fill : white;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #bt9{
     -fx-background-radius: 50%;
     -fx-background-color: #3E3E3E;
     -fx-text-fill : white;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #btcamma{
     -fx-background-radius: 50%;
     -fx-background-color: #3E3E3E;
     -fx-text-fill : white;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 
@@ -75,6 +95,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-text-fill : white;
     -fx-alignment: LEFT;
     -fx-padding: 0 30px;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
     
 }
 
@@ -82,43 +104,64 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-background-color: #f29611;
     -fx-text-fill : white;
     -fx-background-radius: 50;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #btsub{
     -fx-background-color: #f29611;
     -fx-text-fill : white;
     -fx-background-radius: 50;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #btmul{
     -fx-background-color: #f29611;
     -fx-text-fill : white;
     -fx-background-radius: 50;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #btdiv{
     -fx-background-color: #f29611;
     -fx-text-fill : white;
     -fx-background-radius: 50;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #btequal{
     -fx-background-color: #f29611;
     -fx-text-fill : white;
     -fx-background-radius: 50;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #btac {
     -fx-background-color: #acacac;
     -fx-background-radius: 50;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #btaddsub{
     -fx-background-color: #acacac;
     -fx-background-radius: 50;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
 }
 
 #btpercent{
     -fx-background-color: #acacac;
     -fx-background-radius: 50;
+    -fx-font-weight : 500;
+    -fx-font-size : 18px;
+}
+
+#main{
+    -fx-background-color : #111111;
+    
 }
