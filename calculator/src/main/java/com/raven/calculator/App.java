@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+//import javafx.stage.StageStyle;
 
 /**
  * JavaFX App
@@ -17,9 +18,11 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("calc"), 330, 537);
+        scene = new Scene(loadFXML("calc"), 330, 577);
         scene.getStylesheets().add(App.class.getResource("application.css").toExternalForm());
         stage.setScene(scene);
+        //REMOVE TOP BAR
+        //stage.initStyle(StageStyle.UNDECORATED);
         stage.setTitle("Calculator");
         stage.show();
     }
