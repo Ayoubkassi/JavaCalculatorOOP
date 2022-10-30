@@ -166,11 +166,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     
 }
 
-#val1,#val2,#val3,#val4{
+#val1,#val2,#val3,#textField{
     -fx-text-fill : white;
     -fx-prompt-text-fill : rgba(255,255,255,0.3);
     -fx-font-weight : 700;
     -fx-font-size : 19px;
+    -fx-border-width: 40;
     -fx-alignment: RIGHT;
     -fx-background-color : #111111;
     -fx-border-color : #f29611;

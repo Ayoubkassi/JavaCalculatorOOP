@@ -16,19 +16,25 @@
     <VBox AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="10" 
           AnchorPane.rightAnchor="10"  >
         
-        <VBox AnchorPane.bottomAnchor="20"  >
+        <VBox AnchorPane.bottomAnchor="20" >
+            <Label
+                text="0"  
+                fx:id="val1"
+                minWidth="310" 
+            />
+            <Label
+                text="0"  
+                fx:id="val2"
+                minWidth="310"
+            />
+            <Label
+                text="0"  
+                fx:id="val3"
+                minWidth="310"
+            />
             <TextField
                 promptText="0"  
-                fx:id="val1" />
-            <TextField
-                promptText="0"  
-                fx:id="val2" />
-            <TextField
-                promptText="0"  
-                fx:id="val3" />
-            <TextField
-                promptText="0"  
-                fx:id="val4" />
+                fx:id="textField" />
         </VBox>
         <GridPane hgap="20" vgap="10" alignment="CENTER" 
                   gridLinesVisible="false" >
@@ -41,19 +47,19 @@
             <Button fx:id="btpercent" maxHeight="Infinity" maxWidth="Infinity" text="\%" GridPane.columnIndex="2" GridPane.rowIndex="0"  />
             <Button fx:id="btdiv" maxHeight="Infinity" maxWidth="Infinity" text="/" GridPane.columnIndex="3" GridPane.rowIndex="0"  />
             
-            <Button fx:id="bt7" maxHeight="Infinity" maxWidth="Infinity" text="7" GridPane.columnIndex="0" GridPane.rowIndex="1"  /> 
-            <Button fx:id="bt8" maxHeight="Infinity" maxWidth="Infinity" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1"  /> 
-            <Button fx:id="bt9" maxHeight="Infinity" maxWidth="Infinity" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1"  /> 
+            <Button fx:id="bt7" maxHeight="Infinity" maxWidth="Infinity" text="7" GridPane.columnIndex="0" GridPane.rowIndex="1" onAction="#loadWhenClicked" /> 
+            <Button fx:id="bt8" maxHeight="Infinity" maxWidth="Infinity" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#loadWhenClicked" /> 
+            <Button fx:id="bt9" maxHeight="Infinity" maxWidth="Infinity" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1" onAction="#loadWhenClicked" /> 
             <Button fx:id="btmul" maxHeight="Infinity" maxWidth="Infinity" text="x" GridPane.columnIndex="3" GridPane.rowIndex="1"  /> 
             
-            <Button fx:id="bt4" maxHeight="Infinity" maxWidth="Infinity" text="4" GridPane.columnIndex="0" GridPane.rowIndex="2"  /> 
-            <Button fx:id="bt5" maxHeight="Infinity" maxWidth="Infinity" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2"  /> 
-            <Button fx:id="bt6" maxHeight="Infinity" maxWidth="Infinity" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2"  /> 
+            <Button fx:id="bt4" maxHeight="Infinity" maxWidth="Infinity" text="4" GridPane.columnIndex="0" GridPane.rowIndex="2" onAction="#loadWhenClicked" /> 
+            <Button fx:id="bt5" maxHeight="Infinity" maxWidth="Infinity" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" onAction="#loadWhenClicked" /> 
+            <Button fx:id="bt6" maxHeight="Infinity" maxWidth="Infinity" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" onAction="#loadWhenClicked" /> 
             <Button fx:id="btsub" maxHeight="Infinity" maxWidth="Infinity" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2"  /> 
             
-            <Button fx:id="bt1" maxHeight="Infinity" maxWidth="Infinity" text="1" GridPane.columnIndex="0" GridPane.rowIndex="3"  /> 
-            <Button fx:id="bt2" maxHeight="Infinity" maxWidth="Infinity" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3"  /> 
-            <Button fx:id="bt3" maxHeight="Infinity" maxWidth="Infinity" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3"  /> 
+            <Button fx:id="bt1" maxHeight="Infinity" maxWidth="Infinity" text="1" GridPane.columnIndex="0" GridPane.rowIndex="3" onAction="#loadWhenClicked"  /> 
+            <Button fx:id="bt2" maxHeight="Infinity" maxWidth="Infinity" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" onAction="#loadWhenClicked" /> 
+            <Button fx:id="bt3" maxHeight="Infinity" maxWidth="Infinity" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3" onAction="#loadWhenClicked"  /> 
             <Button fx:id="btadd" maxHeight="Infinity" maxWidth="Infinity" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3"  /> 
             
             <Button fx:id="bt0" maxHeight="Infinity" maxWidth="Infinity"  GridPane.columnSpan="2"  text="0" GridPane.columnIndex="0" GridPane.rowIndex="4"  /> 
