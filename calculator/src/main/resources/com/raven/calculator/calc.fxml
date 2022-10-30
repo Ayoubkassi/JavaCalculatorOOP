@@ -19,7 +19,7 @@
         <VBox AnchorPane.bottomAnchor="20" >
             <Label
                 text="0"  
-                fx:id="val1"
+                fx:id="val3"
                 minWidth="310" 
             />
             <Label
@@ -29,7 +29,7 @@
             />
             <Label
                 text="0"  
-                fx:id="val3"
+                fx:id="val1"
                 minWidth="310"
             />
             <TextField
@@ -64,7 +64,7 @@
             
             <Button fx:id="bt0" maxHeight="Infinity" maxWidth="Infinity"  GridPane.columnSpan="2"  text="0" GridPane.columnIndex="0" GridPane.rowIndex="4"  /> 
             <Button fx:id="btcamma" maxHeight="Infinity" maxWidth="Infinity" text="," GridPane.columnIndex="2" GridPane.rowIndex="4"  /> 
-            <Button fx:id="btequal" maxHeight="Infinity" maxWidth="Infinity" text="push" GridPane.columnIndex="3" GridPane.rowIndex="4"  /> 
+            <Button fx:id="btpush" maxHeight="Infinity" maxWidth="Infinity" text="push" GridPane.columnIndex="3" GridPane.rowIndex="4" onAction="#pushVal"  /> 
             </children>
             
             <columnConstraints>
