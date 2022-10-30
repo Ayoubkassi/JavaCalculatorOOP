@@ -16,6 +16,8 @@ import javafx.scene.control.TextField;
  * @author ryota
  */
 public class CalcController {
+    
+    
     @FXML
     private TextField textField;
     @FXML
@@ -25,18 +27,26 @@ public class CalcController {
     @FXML
     private Label val3;
     
-    Accumulateur sack;
+    private int  itterator ;
     
     //here i must use dependency injection
     private Accumulateur stack;
+    Label[] tableLabels;
     public CalcController(){
         this.stack = new Accumulateur();
+        this.itterator = 0;
+        
+        System.out.println(itterator);
+
+        
+        
     }
     
     @FXML
     private void loadWhenClicked(ActionEvent event){
         Button button = (Button) event.getSource();
         String actualVal = button.getText();
+        
         
         String previousVal = textField.getText();
         String current = previousVal.concat(actualVal);
@@ -51,7 +61,35 @@ public class CalcController {
         //change the val to null
         textField.setText(null);
         
-        //update the labels;
-        val1.setText(String.valueOf(val));
+        //animation function
+        if(itterator >= 3){
+            
+            String temp = val2.getText();
+            val2.setText(val1.getText());
+            val3.setText(temp);
+            val1.setText(String.valueOf(val));
+        }else{
+        
+            //update the labels;
+            if(itterator%3 == 0){
+                val3.setText(String.valueOf(val));
+            }
+            else if(itterator%3 == 1){
+                val2.setText(String.valueOf(val));
+            }else{
+                val1.setText(String.valueOf(val));
+            }
+        }
+        
+        itterator++;
+//        itterator%= 3;
+
+
+        
+        textField.setText("");
+        
+//        if(itterator>=0){
+//            
+//        }
     }
 }
