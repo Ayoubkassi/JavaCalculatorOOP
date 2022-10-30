@@ -55,6 +55,60 @@ public class CalcController {
     }
     
     @FXML
+    private void reset(){
+        stack.clear();
+        val1.setText("");
+        val2.setText("");
+        val3.setText("");
+    }
+    
+    //operations
+    @FXML
+    private void sub(){
+        int result = stack.sub();
+        stack.push(result);
+        
+        String temp = val2.getText();
+        val2.setText(val1.getText());
+        val3.setText(temp);
+        val1.setText(String.valueOf(result));
+    }
+    
+    @FXML
+    private void add(){
+        int result = stack.add();
+        stack.push(result);
+        
+        String temp = val2.getText();
+        val2.setText(val1.getText());
+        val3.setText(temp);
+        val1.setText(String.valueOf(result));
+    }
+    
+    @FXML
+    private void mul(){
+        int result = stack.mul();
+        stack.push(result);
+        
+        String temp = val2.getText();
+        val2.setText(val1.getText());
+        val3.setText(temp);
+        val1.setText(String.valueOf(result));
+    }
+    
+    @FXML
+    private void div(){
+        int result = stack.div();
+        stack.push(result);
+        
+        String temp = val2.getText();
+        val2.setText(val1.getText());
+        val3.setText(temp);
+        val1.setText(String.valueOf(result));
+    }
+    
+    
+    @FXML
     private void pushVal(ActionEvent event){
         int val = Integer.parseInt(textField.getText());
         stack.push(val);

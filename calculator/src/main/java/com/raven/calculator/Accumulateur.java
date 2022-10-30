@@ -12,20 +12,28 @@ import java.util.Stack;
  */
 public class Accumulateur extends Stack{
     
-    public int add(int num1, int num2){
+    public int add(){
+        int num1 = (int) this.pop();
+        int num2 = (int) this.pop();
         return num1+num2;
     }
     
-    public int sub(int num1 , int num2){
+    public int sub(){
+        int num1 = (int) this.pop();
+        int num2 = (int) this.pop();
         return num1-num2;
     }
     
-    public int mul(int num1, int num2){
+    public int mul(){
+        int num1 = (int) this.pop();
+        int num2 = (int) this.pop();
         return num1*num2;
     }
     
-    public int div(int num1, int num2){
-             return num1/num2;                  
+    public int div(){
+        int num1 = (int) this.pop();
+        int num2 = (int) this.pop();
+        return num1/num2;                  
     }
 }
 
